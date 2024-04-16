@@ -1,4 +1,4 @@
-# Copyright (c) 2014, 2022, Oracle and/or its affiliates.
+# Copyright (c) 2014, 2021, Oracle and/or its affiliates.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License, version 2.0,
@@ -34,8 +34,7 @@ log-error       = /var/log/mysql/error.log
 # By default we only accept connections from localhost
 # bind-address  = 127.0.0.1
 server-id    = 1
-#location of master database
-log_bin      = /var/log/mysql/mysql-bin.log
+log_bin      = /var/log/mysql/mysql-bin-1.log
 binlog_do_db = tyrell_corp
 # Disabling symbolic-links is recommended to prevent assorted security risks
 symbolic-links=0
